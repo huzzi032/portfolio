@@ -4,24 +4,6 @@
             "title": "Contact",
             "title_long_prefix": "Don't hesitate to",
             "title_long": "**Contact** Me"
-        },
-
-        "es": {
-            "title": "Contacto",
-            "title_long_prefix": "No dudes en",
-            "title_long": "**Contácta**me"
-        },
-
-        "fr": {
-            "title": "Contact",
-            "title_long_prefix": "N'hésitez pas à",
-            "title_long": "Me **Contacter**"
-        },
-
-        "ko": {
-            "title": "연락처",
-            "title_long_prefix": "주저하지 말고",
-            "title_long": "**연락** 주세요"
         }
     },
 
@@ -31,12 +13,8 @@
             "component": "ArticleContactForm",
             "config": {},
             "locales": {
-                "en": {"title": "Send me a **message**"},
-                "es": {"title": "Envíame un **mensaje**"},
-                "fr": {"title": "Envoyez-moi un **message**"},
-                "ko": {"title": "**메시지를** 보내주세요"}
+                "en": {"title": "Send me a **message**"}
             },
-
             "items": null
         },
 
@@ -47,17 +25,14 @@
                 "format": "grid"
             },
             "locales": {
-                "en": {"title": "Or if you **prefer**..."},
-                "es": {"title": "O si **prefieres**..."},
-                "fr": {"title": "Ou si vous **préférez**..."},
-                "ko": {"title": "또는 **원하시면**..."}
+                "en": {"title": "Or if you **prefer**..."}
             },
 
             "items": [
                 {
-                    "value": "+1 (123) 456-7890",
+                    "value": "03044487024",
                     "links": [
-                        {"href": "tel:11234567890"}
+                        {"href": "tel:03044487024"}
                     ],
                     "icon": {
                         "img": null,
@@ -65,17 +40,14 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"title": "Phone"},
-                        "es": {"title": "Teléfono"},
-                        "fr": {"title": "Téléphone"},
-                        "ko": {"title": "전화"}
+                        "en": {"title": "Phone"}
                     }
                 },
 
                 {
-                    "value": "mark.choi@email.com",
+                    "value": "huzaifachaduhary@gmail.com",
                     "links": [
-                        {"href": "mailto:mark.choi@email.com"}
+                        {"href": "mailto:huzaifachaduhary@gmail.com"}
                     ],
                     "icon": {
                         "img": null,
@@ -83,15 +55,14 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"title": "E-mail"},
-                        "ko": {"title": "이메일"}
+                        "en": {"title": "E-mail"}
                     }
                 },
 
                 {
-                    "value": "@markchoi",
+                    "value": "Huzaifa Tahir",
                     "links": [
-                        {"href": "https://linkedin.com"}
+                        {"href": "https://linkedin.com/in/huzaifa-tahir-793639284"}
                     ],
                     "icon": {
                         "img": null,
@@ -99,52 +70,22 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"title": "Linkedin"}
+                        "en": {"title": "LinkedIn"}
                     }
                 },
 
                 {
-                    "value": "Mark Choi",
+                    "value": "huzzi032",
                     "links": [
-                        {"href": "https://facebook.com"}
+                        {"href": "https://github.com/huzzi032"}
                     ],
                     "icon": {
                         "img": null,
-                        "fa": "fa-brands fa-facebook",
+                        "fa": "fa-brands fa-github",
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"title": "Facebook"}
-                    }
-                },
-
-                {
-                    "value": "@markchoi",
-                    "links": [
-                        {"href": "https://instagram.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-instagram",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "Instagram"}
-                    }
-                },
-
-                {
-                    "value": "@markchoi",
-                    "links": [
-                        {"href": "https://tiktok.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-tiktok",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "TikTok"}
+                        "en": {"title": "GitHub"}
                     }
                 }
             ]
